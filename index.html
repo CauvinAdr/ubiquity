@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubiquity</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/helpers.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- version Emmet : header.site-header>.logo>img^nav.main-nav>ul.menu>li.menu-item*5>a.menu-link[href="#"]>lorem1 -->
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <img class="logo1" src="img/logo.svg" alt="Logo d'ubiquity">
+                <p class="logo2">Ubiquity</p>
+                <p class="logo3">Professional Web UI</p>
+            </div>
+            <nav class="main-nav">
+                <button class="toggle-menu" aria-expanded="false" aria-controls="menu">Menu</button>
+                <ul id="menu" class="menu" role="list" hidden>
+                    <li class="menu-item">
+                        <a href="#about" class="menu-link">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#features" class="menu-link">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#team" class="menu-link">Portfolio</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#site-footer" class="menu-link">Blog</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#site-footer" class="menu-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- { : option (ou alt) + ( // [ : option (ou alt) + maj + (
+        multi-curseur : option (ou alt) + clic -->
+
+    <main>
+        <section class="hero" id="about">
+            <div class="container">
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <h1 class="main-title">At Ubiquity , We Care</h1>
+                            <p class="baseline">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed&nbsp;!</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <h1 class="main-title">At Ubiquity , We Trust</h1>
+                            <p class="baseline">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed&nbsp;!</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <h1 class="main-title">At Ubiquity , We Love</h1>
+                            <p class="baseline">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed&nbsp;!</p>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="top-features">
+                    <button class="button1"></button>
+                    <button class="button1"></button>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                </p>
+            </div>
+            <div class="container-extended">
+                <ul class="service-list" role="list">
+                    <li class="service-item">
+                        <figure class="service-fig">
+                            <img src="img/briefcase.svg" alt="Une sacoche" class="service-img">
+                        </figure>
+                        <h3 class="service-title">Consultation</h3>
+                        <p class="service-desc">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                    </li>
+                    <li class="service-item">
+                        <figure class="service-fig">
+                            <img src="img/notes.svg" alt="Un agenda" class="service-img">
+                        </figure>
+                        <h3 class="service-title">Blogging</h3>
+                        <p class="service-desc">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                    </li>
+                    <li class="service-item">
+                        <figure class="service-fig">
+                            <img src="img/star.svg" alt="Une étoile" class="service-img">
+                        </figure>
+                        <h3 class="service-title">Social Media</h3>
+                           <p class="service-desc">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                    </li>
+                    <li class="service-item">
+                        <figure class="service-fig">
+                            <img src="img/bolt.svg" alt="Un éclair" class="service-img">
+                        </figure>
+                        <h3 class="service-title">SEO</h3>
+                        <p class="service-desc">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+
+        <section class="big-feature">
+            <div class="container">
+                <h2 class="section-title">What is Ubiquity</h2>
+                <div class="top-big-feature">
+                    <button class="button2"></button>
+                    <button class="button2"></button>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,</p>
+                <div class="big-feature-img">
+                    <img src="img/groupe_33.png" alt="Ubiquity screenshot">
+                </div>    
+            </div>
+        </section>
+
+        <section class="latest-posts">
+            <div class="container">
+                <h2 class="section-title">Latest Posts</h2>
+                <div class="top-latest-posts">
+                    <button class="button1"></button>
+                    <button class="button1"></button>
+                </div>
+                <p class="first-p">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <ul class="posts">
+                    <li>
+                        <a href="#">
+                            <img src="img/annie-spratt.png" alt="">
+                            <h3>Blog Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/william-iven.png" alt="">
+                            <h3>Blog Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/green-chameleon.png" alt="">
+                            <h3>Blog Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/helloquence.png" alt="">
+                            <h3>Blog Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/lauren-mancke.png" alt="">
+                            <h3>Blog Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/annie-spratt2.png" alt="">
+                            <h3>Blog Title</h3>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                        </a>    
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="funfacts">
+            <div class="opacity">
+                <h2 class="section-title">Fun Facts</h2>
+                <div class="top-funfacts">
+                    <button class="button1"></button>
+                    <button class="button1"></button>
+                </div>
+                <div class="list-funfacts container">  
+                    <ul>
+                        <li class="li-funfacts">
+                            <p>5<span>People</span></p>
+                        </li>
+                        <li class="li-funfacts">
+                            <p>243<span>Pageviews</span></p>
+                        </li>
+                        <li class="li-funfacts">
+                            <p>23<span>Coffes</span></p>
+                        </li>
+                        <li class="li-funfacts">
+                            <p>600<span>Hours</span></p>
+                        </li>
+                        <li class="li-funfacts">
+                            <p>40<span>Days</span></p>
+                        </li>
+                        <li class="li-funfacts">
+                            <p>17<span>Websites</span></p>
+                        </li>
+                    </ul>
+                </div>  
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <div class="testimonials-top">
+                    <img src="img/image_1.png" alt="Femme et son pc">
+                    <div class="testimonials-top-sub">
+                        <h2>Amanda Sigfried</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren
+                        </p>
+                    </div>
+                </div>
+                <div class="testimonials-bottom">
+                    <button class="button1 button3"><span class="screen-reader-text">Go to slide 1</span></button>
+                    <button class="button1 button3"><span class="screen-reader-text">Go to slide 2</span></button>
+                    <button class="button1 button3"><span class="screen-reader-text">Go to slide 3</span></button>
+                    <button class="button1 button3"><span class="screen-reader-text">Go to slide 4</span></button>
+                    <button class="button1 button3"><span class="screen-reader-text">Go to slide 5</span></button>
+                    <button class="button1 button3"><span class="screen-reader-text">Go to slide 6</span></button>
+                    <button class="button1 button3"><span class="screen-reader-text">Go to slide 7</span></button>
+                    <button class="button1 button3"><span class="screen-reader-text">Go to slide 8</span></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="site-footer">
+        <div class="container">
+            <div class="site-footer-sub1">
+                <div class="footer-sub1">
+                    <h4>Recent Posts</h4>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">sit amet, consetetur</a></li>
+                        <li><a href="#">sadipscing elitr, sed</a></li>
+                        <li><a href="#">diam nonumy</a></li>
+                        <li><a href="#">eirmod tempor</a></li>
+                    </ul>
+                </div>
+                <div class="footer-sub2">
+                    <h4>Recent Comments</h4>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">sit amet, consetetur</a></li>
+                        <li><a href="#">sadipscing elitr, sed</a></li>
+                        <li><a href="#">diam nonumy</a></li>
+                        <li><a href="#">eirmod tempor</a></li>
+                    </ul>
+                </div>
+                <div class="footer-sub3">
+                    <h4>Tags</h4>
+                    <ul>
+                        <li><a href="#">INSIDER</a></li>
+                        <li><a href="#">CHECK</a></li>
+                        <li><a href="#">DEMO</a></li>
+                        <li><a href="#">OFFICE</a></li>
+                        <li><a href="#">WORK</a></li>
+                        <li><a href="#">POST</a></li>
+                        <li><a href="#">MANAGMENT</a></li>
+                    </ul>
+                </div>
+                <div class="footer-sub4">
+                    <h4>Ubiquity</h4>
+                    <a href="target_blank"><img src="img/map-marker.svg" alt="">2499 Bee Street, Bear Lake Michigan 49614</a>
+                    <a href="tel:"><img src="img/phone.svg" alt="">231 - 864 - 8100</a>
+                    <a href="mailto:"><img src="img/envelope.svg" alt="">Hello@domainename.com</a>
+                </div>
+            </div>
+            <hr>
+            <div class="site-footer-sub2">
+                <p>© 2019 Ubiquity . All Rights Reserved.</p>
+                <div class="reseaux-sociaux">
+                    <a href="#"><img src="img/facebook.svg" alt=""></a>
+                    <a href="#"><img src="img/twitter.svg" alt=""></a>
+                    <a href="#"><img src="img/google-plus.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/burger-menu.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+        });
+    </script>
+
+</body>
+</html>
