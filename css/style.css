@@ -387,14 +387,9 @@ section {
 
 /* Carousel */
 .swiper-container {
-    
     width: 100%;
     min-height: 80vh;
   }
-
-.swiper-slide {
-    width: 100%;
-}
 
 .swiper-button-prev,
 .swiper-button-next {
@@ -465,6 +460,12 @@ section {
     .swiper-wrapper {
         margin-top: 10rem;
     }
+}
+
+@media screen and (min-width: 48em) { /* eq 768px */
+    .swiper-wrapper {
+        margin-top: 20rem;
+    }
 
     .swiper-button-prev {
         display: flex;
@@ -478,6 +479,12 @@ section {
 @media screen and (min-width: 62em) { /* eq 992px */
     .swiper-wrapper {
         margin-top: 20rem;
+    }
+}
+
+@media screen and (min-width: 75em) { /* eq 1200px */
+    .swiper-wrapper {
+        margin-top: 25rem;
     }
 }
 
@@ -714,7 +721,6 @@ section {
     .big-feature-img img {
         margin-top: -30rem;
     }
-}
 }
 
 /* Latest posts */
